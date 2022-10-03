@@ -1,0 +1,39 @@
+.Skills_Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.Skills_Container div{
+    background-color: var(--color-bg-variant);
+    padding: 2.5rem, 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+}
+.Fontend_Skills article{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.Skills_Container div:hover{
+    background: transparent;
+    border-color: var(--color-bg-variant);
+    cursor: default;
+}
+.Skills_Container h3{
+    text-align: center;
+    color: var(--color-primary);
+    padding-top: 2rem;
+}
+.Fontend_Skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Icons{
+    font-size: 2rem;
+    color: var(--color-primary);
+    
+}
+.Fontend_Skills_Deta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}

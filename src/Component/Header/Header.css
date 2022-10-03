@@ -20,7 +20,6 @@ header{
   background: linear-gradient(#4db5ff,transparent);
     width: 22rem;
     height: 30rem;
-    position: absolute;
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
@@ -37,5 +36,5 @@ header{
 }
 .Image-sction{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }

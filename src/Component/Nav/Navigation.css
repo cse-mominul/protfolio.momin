@@ -1,4 +1,5 @@
 #Nav{
+    border-radius: 25px;
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
@@ -7,18 +8,22 @@
     align-items: center;
     gap: 0.8rem;
     border: 3rem;
-    /* position: fixed; */
+    position: absolute;
+    bottom: 0;
     backdrop-filter: blur(15px);
+    padding: 10px;
+
 } 
 #Nav a{
     background: transparent;
-    padding: 0.8rem;
-    border-radius: 50%;
+    padding: 9px;
+    border-radius: 100%;
     color: var(--color-light);
     font-size: 1.1rem;
+    
 }
 #Nav a:hover{
-    background: rgba(0, 0, 0, 0.3);
+    background: var(--color-bg);
 }
 #Nav a.active{
     background: var(--color-bg);
