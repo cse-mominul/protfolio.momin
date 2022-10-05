@@ -3,10 +3,11 @@ import Cv from '../../assets/CSE-Mominul.pdf'
 import Me from '../../assets/pngegg.png'
 import HeaderSocial from './HeaderSocial';
 import './Header.css'
+import Scroll from './Scroll';
 
 const Header = () => {
     return (
-        <header>
+        <header className='container'>
              <div className='header_container'>
             <h5>Hello I'm</h5>
             <h1>Mominul Islam</h1>
@@ -16,12 +17,16 @@ const Header = () => {
             <a  className="btn btn-primary"href='#Contact'>Lets Tlak</a>
             </div>
             <div className='Image-sction'>
-            <HeaderSocial className="header_social"></HeaderSocial>
+                <div>
+                <HeaderSocial className="header"></HeaderSocial>
+
+                </div>
+           
             <div className='me'>
                 <img className="Me" src={Me}/>
             </div>
             <div>
-            <a className='scroll-down' href='#Contact'>Scroll Down</a>
+            <Scroll></Scroll>
             </div>
             </div>
             

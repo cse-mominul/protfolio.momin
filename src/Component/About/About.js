@@ -3,6 +3,7 @@ import './About.css'
 import Me from '../../assets/momin.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FaLaptopCode} from 'react-icons/fa'
+import {CgWebsite} from 'react-icons/cg'
 import './About.css'
 const About = () => {
     return (
@@ -20,23 +21,25 @@ const About = () => {
                         <article className='About_Card'>
                             <FaAward className='About_Icons'></FaAward>
                             <h5> Experience</h5>
-                            <small> 1.5+ Years Working</small>
+                            <small> 1.2+ Years Working</small>
                         </article>
                 
                         <article className='About_Card'>
-                           <FaLaptopCode></FaLaptopCode>
+                           <FaLaptopCode className='About_Icons'></FaLaptopCode>
                             <h5> Projects</h5>
                             <small>100+</small>
                         </article>
                   
                         <article className='About_Card'>
-                            <FaAward></FaAward>
-                            <h5> Experience</h5>
-                            <small className='Small'> 1.5+ Years Working</small>
+                            <CgWebsite className='About_Icons'> </CgWebsite>
+                            <h5> Websites</h5>
+                            <small className='Small'> 30+</small>
                         </article>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dicta sed excepturi, nam commodi ea aspernatur quis, velit optio assumenda eum minus odit dolore obcaecati! Dolorum cum dolore voluptatibus rerum.</p>
-                    <a className="btn btn-primary" href='#Contact'>Let's Talk</a>
+                    <p>Looking for hard and Challenging Job where I will have the scope to utilize my               potentiality,
+                                adaptability and skill to do something innovate and from where I will be able to enhance my
+                            knowledge.</p>
+                    <p className='btnStyle'><a className="btn btn-primary" href='#Contact'>Let's Talk</a></p>
                         
                 </div>
             </div>

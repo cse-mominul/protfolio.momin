@@ -13,15 +13,23 @@
     padding-left: 2rem;
     padding-top: 2rem;
 }
-.Skills_Container div:hover{
+.Fontend_Container:hover{
     background: transparent;
-    border-color: var(--color-bg-variant);
+    border-color: var(--color-white);
     cursor: default;
 }
 .Skills_Container h3{
     text-align: center;
     color: var(--color-primary);
     padding-top: 2rem;
+}
+.Fontend_Skills:hover{
+    background: transparent;
+}
+.Backend_Container:hover{
+    background: transparent;
+    border-color: var(--color-white);
+    cursor: default; 
 }
 .Fontend_Skills{
     display: grid;

@@ -3,15 +3,16 @@
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    padding: 0.7rem 1.8;   
+    padding: 0.7rem;   
     display: flex;
     align-items: center;
     gap: 0.8rem;
     border: 3rem;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     backdrop-filter: blur(15px);
     padding: 10px;
+    padding-bottom: 1rem;
 
 } 
 #Nav a{
@@ -34,4 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    margin-left: 45%;
+
 }

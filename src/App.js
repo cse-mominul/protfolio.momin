@@ -6,15 +6,17 @@ import About from './Component/About/About';
 import Skills from './Component/Skills/Skills';
 import Education from './Component/Education/Education';
 import Contact from './Component/Contact/Contact';
+import Footer from './Component/Footer/Footer';
 function App() {
   return (
     <div className='container'>
       <Header></Header>
       <Navigation className="NavigantionFixed"></Navigation>
       <About></About>
-      <Skills></Skills>
+      {/* <Skills></Skills>
       <Education></Education>
       <Contact></Contact>
+      <Footer></Footer> */}
     </div>
   );
 }

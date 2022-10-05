@@ -8,8 +8,9 @@ const Skills = () => {
             <h5>What Skills I have</h5>
             <h1>My Skills</h1>
             <div className='Container Skills_Container'>
+                
                 <div className='Fontend_Container'>
-                    <h3> Fontend Devlopment</h3>
+                <h3> Fontend Devlopment</h3>
                     <div className='Fontend_Skills'>
                         <article className='Fontend_Skills_Deta'>
                             <BsFillPatchCheckFill className='Icons'/>

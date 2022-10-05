@@ -7,3 +7,12 @@
     left: 0;
     bottom: 3rem;
 }
+/* ========Media Queris For Small Devices */
+@media screen and (max-width: 600px) {
+    .Header_Socials{
+     display: none;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    
+}
